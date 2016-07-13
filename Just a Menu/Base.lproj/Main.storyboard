@@ -605,6 +605,9 @@
                                     <items>
                                         <menuItem title="Custom Action" id="ZmF-1m-5b2">
                                             <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="customAction:" target="Ady-hI-5gd" id="B6w-CF-jqu"/>
+                                            </connections>
                                         </menuItem>
                                         <menuItem title="Item 2" id="DYy-sm-0RE">
                                             <modifierMask key="keyEquivalentModifierMask"/>
@@ -660,6 +663,9 @@
                 </application>
                 <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Just_a_Menu" customModuleProvider="target"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+                <menuItem title="Custom Action" id="NEO-eH-A1q">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
             </objects>
             <point key="canvasLocation" x="75" y="0.0"/>
         </scene>
